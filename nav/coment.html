@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="pt">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,31 +8,33 @@
   <link rel="stylesheet" href="../css/coment.css">
   <title> Adcione um comentário</title>
 </head>
-  <body>
-      <div class=titulo>
-          <h1>Deixe seu comentário</h1>
+
+<body>
+  <div class=titulo>
+    <h1>Deixe seu comentário</h1>
+  </div>
+  <div class="body">
+    <form action="#" method="POST">
+      <input type="text" class="campo" id="camp-nome" name="nome" placeholder="Nome" required><br>
+      <input type="text" class="campo" id="camp-nick" name="user" placeholder="Usuário" required><br>
+      <textarea id="area-de-comentario" class="campo" name="comentario" placeholder="Escreva aqui seu comentário"
+        required></textarea><br>
+      <div class="submit">
+        <botton id="bt-cancel">
+          <a href="../index.html" alt="Enviar">
+            <img src="../assets/cancel.png" alt="cancelar" id="bt-cancel-img">
+          </a>
+        </botton>
+        <input type="image" src="../assets/button-form.png" alt="Enviar" id="bt-enviar">
       </div>
-       <div class="body">
-           <form action="#" method="POST">
-              <input type="text" class="campo" id="camp-nome" name="nome" placeholder="Nome" required><br>
-              <input type="text" class="campo" id="camp-nick" name="user" placeholder="Usuário" required><br>
-              <textarea id="area-de-comentario" class="campo"  name="comentario" placeholder="Escreva aqui seu comentário" required></textarea><br>
-             <div class="submit">
-                <botton id="bt-cancel">
-                  <a href="../index.html" alt="Enviar">
-                    <img src="../assets/cancel.png" alt="cancelar" id="bt-cancel-img">
-                  </a>
-                </botton>
-                <input type="image" src="../assets/button-form.png" alt="Enviar" id="bt-enviar">
-             </div>
-            
-          </form>
-       </div>
+
+    </form>
+  </div>
   <div id="contato">
     <img id="icon-gmail" class='icon' src="../assets/gmail-logo.png" alt="Gmail">
     <img id="icon-linkedin" class='icon' src="../assets/linkedin.png" alt="Linkedln">
     <img id="icon-github" class='icon' src="../assets/github.png" alt="Github">
   </div>
-  </body>
-  
+</body>
+
 </html>
