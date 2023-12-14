@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #1A1A2E;
+  background: #48488b;
 }
 
 fieldset {
@@ -14,7 +14,7 @@ fieldset {
 
 .navbar {
   text-align: center;
-  background: #020118;
+  background: #3F4070;
   display: flex;
 }
 
@@ -29,13 +29,27 @@ fieldset {
   margin-top: 18px;
   margin-left: 18px;
   margin-bottom: 48px;
-
 }
 
-#navlink {
+.navbar h1:hover {
+  cursor: pointer;
+  color: #99a4e0;
+  transition: color .999999999s;
+}
+
+.links {
+  display: flex;
+  width: 920px;
+  height: 80px;
+  margin-left: 18px;
+  margin-bottom: 48px;
+  justify-content: flex-end;
+}
+
+#navlink{
   width: 100px;
   height: 25px;
-  background: #4E4E6E;
+  background: #8087D4;
   color: white;
   font-family: Montserrat;
   border-radius: 10px;
@@ -52,20 +66,24 @@ fieldset {
 }
 
 #navlink:hover {
-  background: #444474;
+  background: #6768c4;
+  transition: background .3s;
 }
 
 #reload-button {
   width: 112px; 
   height: 109px; 
-  background: #4E4E6E; 
-  border-radius: 9999px
+  background: #8087D4; 
+  border-radius: 9999px;
+  border: none;
 }
 
 #reload-button:hover {
-  background: #444474;
+  background: #6768c4;
+  transition: background .3s;
 }
 
 #reload {
   text-align: center;
+  
 }

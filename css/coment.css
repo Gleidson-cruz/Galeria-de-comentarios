@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #1A1A2E
+  background: #3F4070
 }
 
 .titulo {
@@ -37,7 +37,6 @@ body {
 
 }
 
-
 #camp-nome {
   margin-top: 58px;
 }
@@ -48,11 +47,16 @@ body {
 }
 
 #bt-enviar {
+  
   margin-top: 22px;
   margin-bottom: 36px;
   border-radius: 9999px;
 }
 
+#bt-enviar:hover {
+  background: #6768c4;
+  transition: background .9999999s;
+}
 
 #bt-cancel-img {
   width: 100.5px;
@@ -62,6 +66,12 @@ body {
   border-radius: 9999px;
   }
 
+
+#bt-cancel-img:hover {
+  background: #6768c4;
+  transition: background .9999999s;
+}
+
 .contato {
   text-align: center;
 }
@@ -70,4 +80,5 @@ body {
   width: 95px; 
   height: 72px;
   margin: 26px;
+  filter: invert(96%) sepia(1%) saturate(0%) hue-rotate(271deg) brightness(118%) contrast(100%);
 }
